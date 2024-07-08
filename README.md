@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone https://github.com/afshan0401/connectAndRent.git
    cd connect-and-rent
 2. Install dependencies:
    ```bash
