@@ -1,0 +1,29 @@
+@import './output.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* body{
+    background-color: #efeff2;
+} */
+/* Define CSS variables for both light and dark themes */
+:root {
+    --background-color: #efeff2; /* Light theme background color */
+    
+  }
+  
+  /* Media query for dark mode based on system preference */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #1a1a1a; /* Dark theme background color */
+      
+    }
+  }
+  
+  /* Apply body styles based on CSS variables */
+  body {
+    background-color: var(--background-color);
+    
+  }
+
